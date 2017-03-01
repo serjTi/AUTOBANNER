@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Avto Banner</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="action_exit">Выход</string>
+    <string name="memory_title">Разрешить приложению использовать:</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="cb_PhoneMemory">Память телефона</string>
+    <string name="cb_SDCard">Внешний носитель</string>
+</resources>
