@@ -3,4 +3,14 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="etLoginColor">#b1aa76</color>
+    <color name="blueTextColor">#b1aa76</color>
+    <color name="gpsfragment_back_color">#f3f3f3</color>
+    <color name="progress_background">#e6e6e6</color>
+
+    <color name="gps_btn_off">#ed2d2d</color>
+    <color name="gps_btn_on">#f7f72e</color>
+    <color name="gps_btn_finish">#30b336</color>
 </resources>

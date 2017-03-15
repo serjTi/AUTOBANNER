@@ -45,6 +45,7 @@ public class SendReportTask extends AsyncTask<String, Void, String> {
             nameValuePairs.add(new BasicNameValuePair(Constants.ENCODED_PHOTO, params[0]));
             nameValuePairs.add(new BasicNameValuePair(Constants.ACCESS_TOKEN, params[1]));
             nameValuePairs.add(new BasicNameValuePair(Constants.DISTANCE, params[2]));
+            nameValuePairs.add(new BasicNameValuePair(Constants.CAMPAIGN_ID, "1"));
             httpPost = new HttpPost(Constants.REPORT_URL);
             httpPost.addHeader(Constants.AUTHENTICATION, Constants.AUTHENTICATION_KEY);
             httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs, "UTF-8"));
@@ -66,12 +67,10 @@ public class SendReportTask extends AsyncTask<String, Void, String> {
             }
         } catch (ClientProtocolException e) {
             e.printStackTrace();
-            if (delegate != null)
-                delegate.sendReportResponse(e.getMessage());
+            return e.getMessage();
         } catch (IOException e) {
             e.printStackTrace();
-            if (delegate != null)
-                delegate.sendReportResponse(e.getMessage());
+            return e.getMessage();
         }
         return null;
     }

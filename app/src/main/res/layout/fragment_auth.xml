@@ -1,22 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
-    <EditText
-        android:id="@+id/etLogin"
-        android:hint="логин"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/etPassword"
-        android:password="true"
-        android:hint="пароль"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/btnAuth"
-        android:text="Auth"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/ivLogo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/logo150" />
+
+
+    <LinearLayout
+        android:id="@+id/llEnterCertificate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:textColor="@color/white"
+            android:id="@+id/etLogin"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/ivLogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="100dp"
+            android:alpha="0.5"
+            android:singleLine="true"
+            android:background="@drawable/roundedtexts"
+            android:drawableLeft="@drawable/login_ico"
+            android:drawablePadding="15dp"
+            android:hint="Логин"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/white"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/etLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.5"
+            android:singleLine="true"
+            android:imeOptions="actionGo"
+            android:background="@drawable/roundedtexts"
+            android:drawableLeft="@drawable/pswd_ico"
+            android:drawablePadding="15dp"
+            android:hint="Пароль"
+            android:paddingLeft="15dp"
+            android:password="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+        <Button
+            android:id="@+id/btnAuth"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/etPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_auth"
+            android:text="Войти"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llEnterCertificate"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tvDontRememberPswd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Не помнишь пароль?"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvDontRememberPswd"
+                android:paddingLeft="7dp"
+                android:text="@string/text_click_here"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvNoAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Нет аккаунта?"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvNoAccount"
+            android:paddingLeft="7dp"
+            android:text="@string/text_registration"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,72 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/gpsfragment_back_color">
 
-    <LinearLayout
+    <RelativeLayout
+        android:id="@+id/rlUserCertificate"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/llGPS"
-        android:foregroundGravity="top"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:background="@drawable/background2">
+
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/logo100" />
+
+        <LinearLayout
+            android:id="@+id/llDriverDate"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/ivAvatar"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDriverName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/app_name"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tvTodaysDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDriverName"
+                android:text="Todays Date"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ibSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="25dp"
+            android:background="@drawable/settingsico" />
+        <Button
+            android:id="@+id/btnLogout"
+            android:text="Log out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ibSettings"
+            />
+    </RelativeLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/rlUserCertificate"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvDistance"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/app_name"-->
+            <!--android:textSize="20sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvDistanceDetected"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Ваша локация не определена"-->
+            <!--android:textSize="20sp" />-->
+    <!--</LinearLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/rlProgressStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp">
 
         <TextView
-            android:id="@+id/tvDistance"
+            android:id="@+id/tvHowmuchKM"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            android:textSize="30sp" />
-
-        <TextView
-            android:id="@+id/tvDistanceDetected"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Ваша локация не определена"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="Сколько осталось в км:"
             android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/ivCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvHowmuchKM"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/car_ico" />
 
         <ProgressBar
             android:id="@+id/pbDistance"
             style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:indeterminate="true"
-            android:max="100000" />
+            android:layout_height="35dp"
+            android:layout_below="@+id/ivCar"
+            android:indeterminate="false"
+            android:progressDrawable="@drawable/progress_bar_2" />
+        <TextView
+            android:id="@+id/tvCurrentDst"
+            android:layout_below="@+id/ivCar"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/llGPS"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/llReport"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btnOnGps"
+        <TextView
+            android:id="@+id/tvMaxDst"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Включить GPS" />
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/pbDistance"
+            android:layout_marginRight="10dp" />
 
-        <Button
-            android:id="@+id/btnOffGps"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Выключить GPS" />
-    </LinearLayout>
+    </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/llReport"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom">
+        android:layout_gravity="bottom"
+        android:layout_margin="17dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOnGps"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/off_gps_btn"
+            android:text="@string/start_stop_Tacking" />
 
         <Button
             android:id="@+id/btnReport"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_auth"
             android:text="создать отчёт" />
     </LinearLayout>
 

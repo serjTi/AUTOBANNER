@@ -46,6 +46,7 @@ public class LogoutTask extends AsyncTask<String, Void, String> {
             HttpResponse response = client.execute(httpPost);
             StatusLine statusLine = response.getStatusLine();
             int statusCode = statusLine.getStatusCode();
+            Log.d(Constants.TAG, "log out status code = " + statusCode);
             if (statusCode == 200) {
                 HttpEntity entity = response.getEntity();
                 InputStream content = entity.getContent();
@@ -60,12 +61,10 @@ public class LogoutTask extends AsyncTask<String, Void, String> {
             }
         } catch (ClientProtocolException e) {
             e.printStackTrace();
-            String ee = e.toString();
-            Log.e("Error", ee);
+            return e.getMessage();
         } catch (IOException e) {
             e.printStackTrace();
-            String ee = e.toString();
-            Log.e("Error", ee);
+            return e.getMessage();
         }
         return null;
     }

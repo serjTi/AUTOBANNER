@@ -2,166 +2,139 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Натулик\.android\build-cache\c50f5b15cb41e9b03afc4e6d7a3e97f218d8f02a\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_b301950b783522653c6a70c1eedaedd9278aeefd.jar" />
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_06b936ab27e93b08b910053610302e44bb0bf18d\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        is-multidex="true"
+        jar="C:\Users\Натулик\.android\build-cache\4572d4cff50710b54c5b9979ed797f3a1d7b9e82\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_888032fe81f9e1eca2a5a5b8e377547bb78ef865.jar" />
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2100021e7c8862c4e5c8fb4b524c6e85ec513b4a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Наталья\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient-android\4.3.5.1\eecbb0b998e77629862a13d957d552b3be58fc4e\httpclient-android-4.3.5.1.jar"
+        is-multidex="true"
+        jar="C:\Users\Натулик\.android\build-cache\57bac6eb1bcd2fe633e45d3f035faf509d7ec171\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_37b441fd3c9689d72c6b5fc7d3eb52b9afcec998\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Натулик\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient-android\4.3.5.1\eecbb0b998e77629862a13d957d552b3be58fc4e\httpclient-android-4.3.5.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\httpclient-android-4.3.5.1_40b89979b813260910cbbf5da1929c584129787d.jar" />
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-android-4.3.5.1_cbfe110e4f0fe67d379dd3a727c1a147b77a090a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        is-multidex="true"
+        jar="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_baf693ca79dc05c4b1d7b4fc3703a26ce5340743.jar" />
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_dbf1685d182fd57bf30860621429dc8dad529e3a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Натулик\.android\build-cache\7dcc4d7d229a2ddfbdd9abb060ee39ac1efd9faf\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_d605860f2f2aed6381880672a1bd41d38d36b4e7.jar" />
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8d9783d7d6b446fbb3b6f430d9ce3020bd74c2f6\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Натулик\.android\build-cache\668ccce9b6454f9d0afd222c536216123596034e\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_30fe5c419dab899ed152b12d1e86f6ab58d4b35b.jar" />
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c2024b41abd9e692fbea87ea5ad41dadccc1e2eb\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        is-multidex="true"
+        jar="C:\Users\Натулик\.android\build-cache\9ca679fe31aa049e9b95bd5eee56a8ee09631183\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="316c3417269af5a69d9613c35d56b7ec4b5914dc">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_de1946ed768b042d89d0bf707666e466006b7935.jar" />
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eaf11b2db22320ab9f5beb6ba57520f770e30659\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Натулик\.android\build-cache\3fd264c61fa5ff906404958f83786fb2230fd176\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_74e1bfc691e7f0caebf16377e57b639781e116df.jar" />
+        sha1="aa13c67643afa4a5f7353095eb7fb985d55a18e1">
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94a3d9416d28489c716bc9bd3c05039cac3d0e0d\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_a11c1a4d1d269957793e8538bdb707a63091ff92.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_2c34d73dea0fb3a42fd2a73e3e86466eb9273eaf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_7614229d433ce88e542efe5b1e5dc34b56571e27.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_b3b6856459f7129425b8576aff5d740e7002816f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_b5a0dd7277afa1e0962cf2b98024e62268597133.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_ba967d5fa91f03b8d0ead64d8fec210804c3f64d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Натулик\.android\build-cache\4f60d658330907b72bd8cecf275d85eb5e8191da\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_ea6d11a80bd683ec217508263585a5066e5a787e.jar" />
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_59d2010b18a40fbe4857b713e59313d5377b4f5a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        is-multidex="true"
+        jar="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_45caacb176e2f9ec190c3ab4d5fd006e7295c61e.jar" />
+        sha1="6f007dc719998e72c80444ae7e16ee312d26353a">
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4b3f9739c07e40721e2de13299b824209d02d2dc\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        is-multidex="true"
+        jar="C:\Users\Натулик\.android\build-cache\51c7d1cd1b25f9b631c904332c13cc9820ab7b39\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="69870de0a55548583bd4885d0640fcc7ddd1f8da">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\instant-run_6b01702bae6bab4f9aa40483641c6f0f88214584.jar" />
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_11116b0eee0ae5d990bebd42de7a6345ceb9cad9\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Proger\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        is-multidex="true"
+        jar="C:\Users\Натулик\.android\build-cache\8a5e7a5c9aed575cd906317ce731499abd5f7dac\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="D:\Proger\AndroidStudioProjects\ReclameClient\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_4b89571241e493ab052fd6333a90a40bd67c6b4c.jar" />
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_59a435cadc2fcea57364af723bc1535838682030\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Натулик\.android\build-cache\54603bbbca9da44886ded7c86f9df710bdb23e96\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fb6a22b0ac2497a070b595285e24b50a097e2e4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Proger\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="D:\Proger\AndroidStudioProjects\AUTOBANNER\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_29bd44874f93e3d1319c7b6eaa83e25e0e19ee14\classes.dex" />
     </item>
 
 </items>

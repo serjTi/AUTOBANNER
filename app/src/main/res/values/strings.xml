@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Avto Banner</string>
+    <string name="app_name">AUTOBANNER</string>
 
     <string name="action_settings">Настройки</string>
     <string name="action_exit">Выход</string>
@@ -8,4 +8,26 @@
     <string name="btn_cancel">Отмена</string>
     <string name="cb_PhoneMemory">Память телефона</string>
     <string name="cb_SDCard">Внешний носитель</string>
+    <string name="start_stop_Tacking">On/Off GPS</string>
+
+
+    <string name="text_click_here"><u>Жми сюда</u></string>
+    <string name="text_registration"><u>Зарегистрируйся</u></string>
+
+    <!-- Activity detection strings -->
+    <string name="in_vehicle">In a vehicle</string>
+    <string name="on_bicycle">On a bicycle</string>
+    <string name="on_foot">On foot</string>
+    <string name="running">Running</string>
+    <string name="still">Still</string>
+    <string name="tilting">Tilting</string>
+    <string name="unknown">Unknown activity</string>
+    <string name="walking">Walking</string>
+    <string name="unidentifiable_activity">Unidentifiable activity: %1$d</string>
+    <string name="detected_activities_title">Detected Activities</string>
+    <string name="request_activity_updates">Request updates</string>
+    <string name="remove_activity_updates">Remove updates</string>
+    <string name="activity_updates_added">Activity updates added</string>
+    <string name="activity_updates_removed">Activity updates removed</string>
+    <string name="not_connected">GoogleApiClient not yet connected. Try again.</string>
 </resources>

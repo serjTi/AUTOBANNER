@@ -12,8 +12,11 @@ public class Constants {
     public static final String KEY_MEMORY_PLACE = "SAVED_MAMORY_PLACE";
 
     public static final String STATUS = "status";
+    public static final String CAMPAIGN_ID = "campaign_id";
+    public static final String SUCCESS = "success";
     public static final String ACCESS_TOKEN = "access_token";
     public static final String DISTANCE = "distance";
+    public static final String CURRENT_DISTANCE = "current_distance";
     public static final String ENCODED_PHOTO = "encoded_photo";
     public static final String AUTHENTICATION = "AUTHENTICATION";
     public static final String AUTHENTICATION_KEY = "842c90552ac1ee3f6c85cc3639686998";
@@ -30,6 +33,19 @@ public class Constants {
     public static final int CITY_LOCALITY = 700;
     public static final int OUT_OF_TOWN_LOCALITY = 701;
     public static final int CAMERA_REQUEST = 1888;
+    public static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000;
+
+
+// parameters for activity detection and GPS
+    public static int LOCATION_REQUEST_UPDATES_INTERVAL = 5 * 1000;
+    public static int STILL_CONFIDENCE_VALUE = 75;
+    public static int IN_VEHICLE_CONFIDENCE_VALUE = 33;
+    public static float GPS_LOCATION_ACCURACY = 45.0f;
+
+
+ // it's for tests
+    public static final int NET_DIST_UPD = 584;
+    public static final int BOTH_DIST_UPD = 84321;
 
 // key for GoogleMapsApi
     private static final String API_KEY = "key=" + "AIzaSyCAnG0-7mO_eeSTE7Q1dLMZFVgvvYFkMto" + "_API";
